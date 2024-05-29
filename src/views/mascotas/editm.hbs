@@ -1,0 +1,41 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3 class="text-uppercase"> Editar una Mascota</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/editm/{{mascota.id}}" method="post">
+
+                        <div class="input-group mt-2">
+                            <label for="name" class="input-group-text"> Nombre Mascota </label>
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Ejemplo: Tomy" value="{{mascota.name}}" autofocus required >
+                        </div>
+
+                        <div class="input-group mt-2">
+                            <label for="genero" class="input-group-text"> Genero </label>
+                            <input class="form-control" type="text" name="genero" id="genero" placeholder="Ejemplo: Macho/hembra" value="{{mascota.genero}}" required >
+                        </div>
+
+                        <div class="input-group mt-2">
+                            <label for="age" class="input-group-text"> Edad </label>
+                            <input class="form-control" type="number" name="age" id="age" placeholder="0" value="{{mascota.age}}" required >
+                        </div>
+                        
+                        <div class="input-group mt-2">
+                            <label for="observacion" class="input-group-text"> Observacion </label>
+                            <input class="form-control" type="text" name="observacion" id="observacion" placeholder="Ejemplo: Caracteristicas" value="{{mascota.observacion}}" required >
+                        </div>
+                        
+
+                        <div class="form-group mt-4 d-grid gap-2">
+                            <button class="btn btn-success"> Actualizar </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
