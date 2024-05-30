@@ -39,6 +39,11 @@ app.get('/', (req, res) => {
     res.render('index')
 });
 
+app.get('/quienessomos', (req, res) => {
+    res.render('quienessomos')
+});
+
+
 
 app.use(personasRoutes);
 app.use(mascotasRoutes);
