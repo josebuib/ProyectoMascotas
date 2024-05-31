@@ -16,5 +16,15 @@ footer {
 }
 body {
     background-color: beige;
+    background-image: url("/img/gatos.webp");
   }
 
+div.container {
+
+    background-color: lightslategray;
+}
+
+.container {
+    background-color: lightblue;
+
+}
