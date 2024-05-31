@@ -1,0 +1,20 @@
+*
+
+h3, h3 {
+    text-shadow: 2px 2px 5px;
+}
+
+footer {
+    background-color: gray;
+    color: black;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+
+    
+}
+body {
+    background-color: beige;
+  }
+
