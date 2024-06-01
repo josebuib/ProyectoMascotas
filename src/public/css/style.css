@@ -22,9 +22,11 @@ body {
 div.container {
 
     background-color: lightslategray;
+    background-image: url("/img/animales.jpg");
 }
 
 .container {
     background-color: lightblue;
+    background-image: url("/img/animales.jpg");
 
 }
