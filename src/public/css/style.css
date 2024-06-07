@@ -11,6 +11,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 2px;
+    margin-top: 30%;
 
     
 }
@@ -22,7 +23,7 @@ body {
 div.container {
 
     background-color: lightslategray;
-    background-image: url("/img/animales.jpg");
+    
 }
 
 .container {
